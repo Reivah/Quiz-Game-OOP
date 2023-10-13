@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script src="https://kit.fontawesome.com/96270d5280.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="title">Quiz application using JavaScript OOP</h1>
+    <div class="main">
+        <div class="question-title">
+            <p class="question-number"></p>
+            <p class="timer"><i class="fa-regular fa-clock"></i> 15 seconds</p>
+        </div>
+        <hr>
+        <div class="question"></div>
+        <div class="answers">
+        </div>
+        <div class="button-container">
+            <button class="submit">Next</button>
+        </div>
+        <div class="results">
+            <h2 class="result-title">Your Score</h2>
+            <p class="result-text">Your score is <span class="result-score"></span></p>
+            <!-- <button class="result-btn">Close</button> -->
+        </div>
+        <div class="correct-answer">
+            <h2 class="result-title">Correct answer</h2>
+            <button class="close-btn">Close</button>
+        </div>
+        <div class="wrong-answer">
+            <h2 class="result-title">Wrong answer</h2>
+            <button class="wrong-close-btn">Close</button>
+        </div>
+        <div class="rules">
+            <h2 class="rules-title">Rules of this Quiz</h2>
+            <ul class="rules-list">
+                <li class="rules-item">You will have only 15 seconds pers each question</li>
+                <li class="rules-item">There is only one correct answer</li>
+                <li class="rules-item">After you click "START QUIZ" button the countdown will start</li>
+            </ul>
+            <button class="rules-btn">Start Quiz</button>
+        </div>
+    </div>
+    <div class="bg-shadow"></div>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
